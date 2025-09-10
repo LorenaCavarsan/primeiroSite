@@ -19,6 +19,10 @@ h2{
     color: powderblue;
 }
 
+h4{
+    
+}
+
 p{
     margin-left: 50px;
     margin-right: 50px;
@@ -76,42 +80,6 @@ ul li{
     font-size: 20px;
 }
 
-ol{
-    color: lightslategray;
-}
-
-ol li{
-    font-size: 20px;
-}
-
-/* TABELA */
-
-table{
-    width: 100%;
-    border-collapse: collapse;
-    margin: 20px 0;
-}
- 
-th{
-    background-color: lightblue;
-    color: oldlace;
-    padding: 20px;
-    font-size: 25px;
- 
-}
- 
-td{
-    border: 1px solid #dee2e6;
-    padding: 20px;
+footer{
     text-align: center;
- 
- 
-    background-color: snow;
-    color: #839deb;
-    font-size: 20px;
 }
- 
-tbody tr:nth-child(even){
-    background-color: lightslategray;
-}
-
