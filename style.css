@@ -16,23 +16,71 @@ h1{
 h2{
     margin-left: 50px;
     font-size: 30px;
-    color: powderblue;
+    color: #647FBC;
 }
 
 h4{
-    
+    color: gray;
 }
 
 p{
     margin-left: 50px;
     margin-right: 50px;
     font-size: 20px;
-    color: snow;
+    color: lightslategrey;
+}
+
+center p{
+    color: #ffffffdd;
+}
+
+a{
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
 }
 
 img{
-    margin-left: 50px;
-    width: 30%;
+    margin-left: 250px;
+    width: 40%;
+}
+
+p img{
+    width: 10%;
+    margin-left: 0;
+}
+
+.css{
+    width: 16%;   /* editar imagem separada das outras, pegar sua classe */
+}
+
+.mdn{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.freecode{
+    margin-left: 20px;
+}
+
+.wescola{
+    margin-left: 20px;
+}
+
+.a3w{
+    width: 15%;
+}
+
+.smash{
+    margin-bottom: 4%;
+    margin-left: 2%;
+    width: 9%;
+}
+
+.ngroup{
+    margin-bottom: 2%;
+    margin-left: 5%;
 }
 
 center {
@@ -61,7 +109,7 @@ nav ul li {
 
 nav ul li a {
     color: skyblue;  /* color: #257e0f; */
-    text-decoration: none;
+    text-decoration: none;  /* tira a linha de link */
     font-size: 20px;
     padding: 10px;
     display: block; 
@@ -82,4 +130,13 @@ ul li{
 
 footer{
     text-align: center;
+}
+
+main {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 1.8rem;
+    background: #ffffffdd;
+    border-radius: 0.8rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
